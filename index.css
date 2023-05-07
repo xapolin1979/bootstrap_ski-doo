@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    background-color: rgb(233, 233, 233);
+
+}
+
+h1 {
+    color: #fccc34;
+    font-size: 6em;
+    font-family: 'Permanent Marker';
+    text-align: center;
+    text-shadow: 10px 5px 10px rgb(66, 66, 66);
+
+
+}
+
+
+
+/*navegador*/
+
+
+.bg-primary {
+    background-color: rgb(20, 72, 133) !important;
+}
+
+
+.bg-primary .dropdown-menu {
+    background-color: white;
+}
+
+.bg-primary .dropdown-menu .dropdown-item,
+.bg-primary .dropdown-menu .dropdown-item:focus {
+    color: rgb(0 0 0);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-toggler {
+    border: 2px solid #fccc34;
+}
+
+/*slider pagina primcipal*/
+
+
+
+.carousel-caption {
+
+    color: rgb(255, 255, 255);
+    top: 450px;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.btn-warning {
+    color: rgb(33, 33, 33);
+    border-color: #fccc34;
+    padding: 15px;
+    background-color: #fccc34;
+    font-weight: bold;
+}
+
+
+/*equipo de profesores pagina primcipal*/
+
+.profesores {
+    background-color: white;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+
+
+}
+
+h2 {
+    color: #fccc34;
+    font-size: 2.5em;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Permanent Marker';
+
+}
+
+.target_profesores {
+    margin: 20px;
+}
+
+.profe {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: 3px solid #fccc34;
+    background-color: rgb(74, 138, 199);
+    color: white;
+}
+
+/*tienda pagina principal*/
+
+.tienda_targetas {
+    margin-top: 30px;
+}
+
+.card-group {
+    padding-top: 20px;
+}
+
+.card-title {
+    color: #ffffff;
+    font-size: 1.8em;
+}
+
+/*footer*/
+
+.footer {
+
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.card-body {
+    height: 350px;
+
+}
+
+
+
+
+
+
+/*pagina de la escuela*/
+
+
+/*portada header*/
+
+.portada {
+
+    height: 600px;
+    background-image: url(imagenes/header_escuela.jpg);
+    background-size: cover;
+}
+
+.escuela_profesores {
+    background-color: white;
+    height: auto;
+    padding: 20px;
+}
+
+
+
+/*animaciones*/
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+}
+
+.animate__animated.animate__slideInUp {
+
+    animation-duration: 1s;
+}
+
+.animate__animated.animate__fadeInUp {
+    animation-duration: 1.2s;
+}
+
+
+
+
+/*Pagina tienda*/
+
+
+.tienda_de_esqui {
+    background-color: white;
+    height: auto;
+    padding: 20px;
+}
+
+.portada_2 {
+
+    height: 600px;
+    background-image: url(imagenes/tienda_portada.jpg);
+    background-size: cover;
+}
+
+.card_tienda {
+    height: 350px;
+}
+
+
+/*pagina contacto*/
+
+
+.formulario {
+
+    margin-top: 50px;
+
+}
+
+.logo_formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto {
+    border: 3px solid #fccc34;
+    padding: 20px;
+}
